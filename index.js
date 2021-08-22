@@ -1,0 +1,30 @@
+function add(number1, number2) {
+    return number1+number2;
+}
+function subtract(number1, number2) {
+    return number1-number2;
+}
+function multiply(number1, number2) {
+    return number1*number2;
+}
+function divide(number1, number2) {
+    return number1/number2;
+}
+function increment(n) {
+    return n + 1;
+
+}
+
+function decrement(n) {
+    return n - 1;
+}
+
+function makeInt(n) {
+    parseInt(n, 10);
+    return parseInt(n, 10);
+}
+
+function preserveDecimal(n) {
+    parseFloat(n, 2.222);
+    return parseFloat(n, 2.222);
+}
